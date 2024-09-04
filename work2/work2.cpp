@@ -6,12 +6,19 @@
 
 using namespace std;
 
+int sum(int a, int b) {
+	return a + b;
+}
+
 int main()
 {
 	SetConsoleOutputCP(1251);
 	SetConsoleCP(1251);
-	setlocale(LC_ALL, "RU");
+	//setlocale(LC_ALL, "RU");
 	srand(time(NULL));
+
+	int a = 10, b = 5;
+	cout << a << " + " << b << " = " << sum(a, b);
 
 	return 0;
 }
