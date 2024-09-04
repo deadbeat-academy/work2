@@ -10,6 +10,10 @@ int sum(int a, int b) {
 	return a + b;
 }
 
+int doublesum(int a, int b) {
+	return 2 * (a + b)
+}
+
 int main()
 {
 	SetConsoleOutputCP(1251);
@@ -19,6 +23,7 @@ int main()
 
 	int a = 10, b = 5;
 	cout << a << " + " << b << " = " << sum(a, b);
+	cout << "(" << a << " + " << b << ") = " << doublesum(a, b);
 
 	return 0;
 }
