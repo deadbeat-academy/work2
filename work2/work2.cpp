@@ -1,8 +1,17 @@
-﻿// work2.cpp
+﻿#include<iostream>
+#include<windows.h>
+#include<string>
+#include<string.h>
+#include<fstream>
 
-#include <iostream>
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	SetConsoleOutputCP(1251);
+	SetConsoleCP(1251);
+	setlocale(LC_ALL, "RU");
+	srand(time(NULL));
+
+	return 0;
 }
