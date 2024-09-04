@@ -13,5 +13,7 @@ int main()
 	setlocale(LC_ALL, "RU");
 	srand(time(NULL));
 
+	cout << "Hello world!";
+
 	return 0;
 }
