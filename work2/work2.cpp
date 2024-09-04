@@ -11,7 +11,7 @@ int sum(int a, int b) {
 }
 
 int doublesum(int a, int b) {
-	return 2 * (a + b)
+	return 2 * (a + b);
 }
 
 int main()
